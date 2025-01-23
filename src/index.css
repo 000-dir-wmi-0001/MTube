@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+  color: #5a5a5a;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #000;
+}
+
+img {
+  cursor: pointer;
+  max-width: 100%;
+  height: auto;
+}
+
+.flex-div {
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.hidden {
+  display: none;
+}

@@ -1,0 +1,16 @@
+.play-container {
+  background: #f9f9f9;
+  padding: 20px 2%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 900px) {
+  .play-container {
+    padding: 20px 5%; /* Equal padding for all sides */
+    flex-direction: column; /* Stack elements on smaller screens */
+  }
+}
+
+
